@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    background-image: url(source/mouse-8178945_1280.webp);
+    background-size: contain;
+    border-radius: 100%;
+}
+header ul{
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    list-style: none;
+    color: white;
+}
+
+
