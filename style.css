@@ -9,6 +9,7 @@ header{
     justify-content: space-around;
     padding: 20px;
     align-items: center;
+    padding-bottom: 70px;
 }
 a{
     color: white;
@@ -29,5 +30,121 @@ header ul{
     list-style: none;
     color: white;
 }
+.articulo-contenedor{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+.articulo-contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 400px;
+    padding-left: 400px;
+}
+.articulo-contenedor-texto-cabecera{
+    font-size: 48px;
+    font-weight: 700;
+    color:#F9FAF8;
+    margin: 10px;
+}
+.articulo-contenedor-texto-boton>button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    cursor: pointer;
+    margin-top: 10px;
 
+}
+.articulo-contenedor-imagen{
+    width: 50%;
+    height: 400px;
+}
 
+.articulo-contenedor-imagen>img{
+    width: 600px;
+}
+.galeria-imagenes{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+.galeria-imagenes-titulo{
+    margin-bottom: 20px;
+}
+.galeria-imagenes-carrusel{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.galeria-imagenes-carrusel-tarjeta{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.galeria-imagenes-carrusel-tarjeta>img{
+    border-radius: 25px;
+}
+.texto-imagen{
+    text-align: center;
+}
+.frase{
+    height: auto;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.frase-texto{
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+    width: 900px;
+}
+.frase-firma{
+    width: 600px;
+    font-weight: bold;
+    text-align: right;
+}
+footer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pie{
+    width: 800px;
+    height: 90px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 20px;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pie-texto-titulo{
+    font-weight: 800;
+}
+.pie-boton>button{
+    width: 100px;
+    height: 30px;
+    background-color: transparent;
+    color: #e5e7eb;
+    border-color: #F9FAF8;
+    /* border-style: none; */
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
